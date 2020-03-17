@@ -50,6 +50,15 @@ h2 {
     font-family: Verdana, Tahoma;
 }
 
+#idVoyage {
+    background-image: url("img/voyage.jpg");
+    background-size: cover;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
 .button {
     font-size: 1em;
     padding: 10px;
@@ -147,16 +156,13 @@ h2 {
 }
 
 .menu {
-    position: absolute;
-    left: 50%;
-    margin-left: -190px;
-    padding-top: 20px;
-    padding-left: 190px;
-    width: 380px;
+    margin-top: 95px;
     height: 250px;
     box-sizing: border-box;
     font-size: 20px;
     text-align: left;
+    display: flex;
+    justify-content: center;
 }
 
 .menu-item:hover {
