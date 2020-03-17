@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Mes centres d'intérêts</title>
     <link rel="stylesheet" type="text/css" href="styleGeneric.css">
+    <script src="menu.js"></script>
 </head>
 
 <body>
@@ -12,23 +13,19 @@
     <h1 id="texteHaut">
         Mes centres d'intérêts
     </h1>
-
-
-    <nav class="menu">
-        <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open" />
-        <label class="menu-open-button" for="menu-open">
-          <span class="hamburger hamburger-1"></span>
-          <span class="hamburger hamburger-2"></span>
-          <span class="hamburger hamburger-3"></span>
-        </label>
-
-        <a href="#idVoyage" class="menu-item">Voyages<i class="fa fa-bar-chart"></i> </a>
-        <a href="#musique" class="menu-item">Musiques<i class="fa fa-plus"></i> </a>
-        <a href="#nature" class="menu-item">Nature<i class="fa fa-heart"></i> </a>
-        <a href="#amis" class="menu-item">Amis<i class="fa fa-envelope"></i> </a>
-        <a href="#manger" class="menu-item">Manger<i class="fa fa-cog"></i> </a>
-        <a href="#patisser" class="menu-item">Patisser<i class="fa fa-cog"></i> </a>
-    </nav>
+    <div class="toggle" id="toggle" onclick="menu-expand()">
+        <i class="fa fa-plus" id="plus">➕</i>
+    </div>
+    <div class="menu" id="menu">
+        <div>
+            <a href="#idVoyage">🛫</a>
+            <a href="#idMusique">🎶</a>
+            <a href="#idNature">🌺</a>
+            <a href="#idAmis">👩‍❤️‍👩</a>
+            <a href="#idManger">🌮</a>
+            <a href="#idPatisser">🍰</a>
+        </div>
+    </div>
 
     <div id="idVoyage">
         <h2>
@@ -42,11 +39,80 @@
         </p>
     </div>
 
-    <section id="idMusique"></section>
-    <section id="idNature"></section>
-    <section id="idAmis"></section>
-    <section id="idManger"></section>
-    <section id="idPatisser"></section>
+    <div id="idMusique">
+        <h2>Musique</h2>
+        <p id="idTextMusic">fgerokuhgtfiuezhgikuerhgbiuerthgkjrehtgkjerdhtgkjerlktghrkljgtnbhkjhbjrnhbjnftjgtn tryenbtyjhtrynh </br>
+            sdjfsedmljmlfdskvbdfbjklgmùfbnjkglfnhjkfgm,nbfgdhkljùùfdnkomgfhynk,hgmlon,hgmk,opmjkmklmvgodghkjmjklmojlm</br>
+            jfhdlshlkjfvlbmkjdflkjb vbflkdjbmljkdf vblkfdbmlkjfdb,dlkmfbn,mn,bkmlkmùlùlùbvlfdùmlhùmldùml</br>
+            dfiqsjhfldsjkldsjvlksdjvlsdkjvlgsdkjvlsdjvfliijsdjnvkdsljklgidvkndkl,cvdlksji</br>
+            jfhdlshlkjfvlbmkjdflkjb vbflkdjbmljkdf vblkfdbmlkjfdb,dlkmfbn,mn,bkmlkmùlùlùbvlfdùmlhùmldùml</br>
+            jfhdlshlkjfvlbmkjdflkjb vbflkdjbmljkdf vblkfdbmlkjfdb,dlkmfbn,mn,bkmlkmùlùlùbvlfdùmlhùmldùml</br>
+            jfhdlshlkjfvlbmkjdflkjb vbflkdjbmljkdf vblkfdbmlkjfdb,dlkmfbn,mn,bkmlkmùlùlùbvlfdùmlhùmldùml</br>
+            jfhdlshlkjfvlbmkjdflkjb vbflkdjbmljkdf vblkfdbmlkjfdb,dlkmfbn,mn,bkmlkmùlùlùbvlfdùmlhùmldùml</br>
+            jfhdlshlkjfvlbmkjdflkjb vbflkdjbmljkdf vblkfdbmlkjfdb,dlkmfbn,mn,bkmlkmùlùlùbvlfdùmlhùmldùml</br>
+            jfhdlshlkjfvlbmkjdflkjb vbflkdjbmljkdf vblkfdbmlkjfdb,dlkmfbn,mn,bkmlkmùlùlùbvlfdùmlhùmldùml</br>
+            jfhdlshlkjfvlbmkjdflkjb vbflkdjbmljkdf vblkfdbmlkjfdb,dlkmfbn,mn,bkmlkmùlùlùbvlfdùmlhùmldùml</br>
+            jfhdlshlkjfvlbmkjdflkjb vbflkdjbmljkdf vblkfdbmlkjfdb,dlkmfbn,mn,bkmlkmùlùlùbvlfdùmlhùmldùml</br>
+            jfhdlshlkjfvlbmkjdflkjb vbflkdjbmljkdf vblkfdbmlkjfdb,dlkmfbn,mn,bkmlkmùlùlùbvlfdùmlhùmldùml</br>
+            jfhdlshlkjfvlbmkjdflkjb vbflkdjbmljkdf vblkfdbmlkjfdb,dlkmfbn,mn,bkmlkmùlùlùbvlfdùmlhùmldùml</br>
+            jfhdlshlkjfvlbmkjdflkjb vbflkdjbmljkdf vblkfdbmlkjfdb,dlkmfbn,mn,bkmlkmùlùlùbvlfdùmlhùmldùml</br>
+            jfhdlshlkjfvlbmkjdflkjb vbflkdjbmljkdf vblkfdbmlkjfdb,dlkmfbn,mn,bkmlkmùlùlùbvlfdùmlhùmldùml</br>
+            jfhdlshlkjfvlbmkjdflkjb vbflkdjbmljkdf vblkfdbmlkjfdb,dlkmfbn,mn,bkmlkmùlùlùbvlfdùmlhùmldùml</br>
+            jfhdlshlkjfvlbmkjdflkjb vbflkdjbmljkdf vblkfdbmlkjfdb,dlkmfbn,mn,bkmlkmùlùlùbvlfdùmlhùmldùml</br>
+        </p>
+    </div>
+    <div id="idNature">
+        <h2>Nature</h2>
+        <p id="idTextNature">fgerokuhgtfiuezhgikuerhgbiuerthgkjrehtgkjerdhtgkjerlktghrkljgtnbhkjhbjrnhbj</br>
+            sdjfsedmljmlfdskvbdfbjklgmùfbnjkglfnhjkfgm,nbfgdhkljùùfdnkomgfhynk,hgmlon,hgmk,opmjkmklmvjlm</br>
+            jfhdlshlkjfvlbmkjdflkjb vbflkdjbmljkdf vblkfdbmlkjfdb,dlkmfbn,mn,bkmlkmùlùlùbvlfdùmlhùmldùml</br>
+            dfiqsjhfldsjkldsjvlksdjvlsdkjvlgsdkjvlsdjvfliijsdjnvkdsljklgidvkndkl,cvdlksji</br>
+            jfhdlshlkjfvlbmkjdflkjb vbflkdjbmljkdf vblkfdbmlkjfdb,dlkmfbn,mn,bkmlkmùlùlùbvlfdùmlhùmldùml</br>
+            jfhdlshlkjfvlbmkjdflkjb vbflkdjbmljkdf vblkfdbmlkjfdb,dlkmfbn,mn,bkmlkmùlùlùbvlfdùmlhùmldùml</br>
+            jfhdlshlkjfvlbmkjdflkjb vbflkdjbmljkdf vblkfdbmlkjfdb,dlkmfbn,mn,bkmlkmùlùlùbvlfdùmlhùmldùml</br>
+            jfhdlshlkjfvlbmkjdflkjb vbflkdjbmljkdf vblkfdbmlkjfdb,dlkmfbn,mn,bkmlkmùlùlùbvlfdùmlhùmldùml</br>
+            jfhdlshlkjfvlbmkjdflkjb vbflkdjbmljkdf vblkfdbmlkjfdb,dlkmfbn,mn,bkmlkmùlùlùbvlfdùmlhùmldùml</br>
+            jfhdlshlkjfvlbmkjdflkjb vbflkdjbmljkdf vblkfdbmlkjfdb,dlkmfbn,mn,bkmlkmùlùlùbvlfdùmlhùmldùml</br>
+            jfhdlshlkjfvlbmkjdflkjb vbflkdjbmljkdf vblkfdbmlkjfdb,dlkmfbn,mn,bkmlkmùlùlùbvlfdùmlhùmldùml</br>
+            jfhdlshlkjfvlbmkjdflkjb vbflkdjbmljkdf vblkfdbmlkjfdb,dlkmfbn,mn,bkmlkmùlùlùbvlfdùmlhùmldùml</br>
+            jfhdlshlkjfvlbmkjdflkjb vbflkdjbmljkdf vblkfdbmlkjfdb,dlkmfbn,mn,bkmlkmùlùlùbvlfdùmlhùmldùml</br>
+            jfhdlshlkjfvlbmkjdflkjb vbflkdjbmljkdf vblkfdbmlkjfdb,dlkmfbn,mn,bkmlkmùlùlùbvlfdùmlhùmldùml</br>
+            jfhdlshlkjfvlbmkjdflkjb vbflkdjbmljkdf vblkfdbmlkjfdb,dlkmfbn,mn,bkmlkmùlùlùbvlfdùmlhùmldùml</br>
+            jfhdlshlkjfvlbmkjdflkjb vbflkdjbmljkdf vblkfdbmlkjfdb,dlkmfbn,mn,bkmlkmùlùlùbvlfdùmlhùmldùml</br>
+            jfhdlshlkjfvlbmkjdflkjb vbflkdjbmljkdf vblkfdbmlkjfdb,dlkmfbn,mn,bkmlkmùlùlùbvlfdùmlhùmldùml</br>
+            jfhdlshlkjfvlbmkjdflkjb vbflkdjbmljkdf vblkfdbmlkjfdb,dlkmfbn,mn,bkmlkmùlùlùbvlfdùmlhùmldùml</br>
+            jfdb,dlkmfbn,mn,bkmlkmùlùlùbvlfdùmlhùmldùml</br>
+            jfhdlshlkjfvlbmkjdflkjb vbflkdjbmljkdf vblkfdbmlkjfdb,dlkmfbn,mn,bkmlkmùlùlùbvlfdùmlhùmldùml</br>
+            jfhdlshlkjfvlbmkjdflkjb vbflkdjbmljkdf vblkfdbmlkjfdb,dlkmfbn,mn,bkmlkmùlùlùbvlfdùmlhùmldùml</br>
+            jfhdlshlkjfvlbmkjdflkjb vbflkdjbmljkdf vblkfdbmlkjfdb,dlkmfbn,mn,bkmlkmùlùlùbvlfdùmlhùmldùml</br>
+            jfhdlshlkjfvlbmkjdflkjb vbflkdjbmljkdf vblkfdbmlkjfdb,dlkmfbn,mn,bkmlkmùlùlùbvlfdùmlhùmldùml</br>
+            jfhdlshlkjfvlbmkjdflkjb vbflkdjbmljkdf vblkfdbmlkjfdb,dlkmfbn,mn,bkmlkmùlùlùbvlfdùmlhùmldùml</br>
+            jfhdlshlkjfvlbmkjdflkjb vbflkdjbmljkdf vblkfdbmlkjfdb,dlkmfbn,mn,bkmlkmùlùlùbvlfdùmlhùmldùml</br>
+            </br>
+            </br>
+            </br>
+            </br>
+            </br>
+            <p id="idLogo">♻ 🌍 ♻ 🌍 ♻ 🌍 ♻ 🌍 ♻</p>
+
+        </p>
+    </div>
+    <div id="idAmis">
+        <h2>Amis</h2>
+        <p>fgerokuhgtfiuezhgikuerhgbiuerthgkjrehtgkjerdhtgkjerlktghrkljgtnbhkjhbjrnhbjnftjgtn tryenbtyjhtrynh
+        </p>
+    </div>
+    <div id="idManger">
+        <h2>Manger</h2>
+        <p>fgerokuhgtfiuezhgikuerhgbiuerthgkjrehtgkjerdhtgkjerlktghrkljgtnbhkjhbjrnhbjnftjgtn tryenbtyjhtrynh
+        </p>
+    </div>
+    <div id="idPatisser">
+        <h2>Pâtisser</h2>
+        <p>fgerokuhgtfiuezhgikuerhgbiuerthgkjrehtgkjerdhtgkjerlktghrkljgtnbhkjhbjrnhbjnftjgtn tryenbtyjhtrynh
+        </p>
+    </div>
+
 
 </body>
 
