@@ -9,6 +9,7 @@ body {
 h2 {
     text-align: center;
     font-family: Verdana, Tahoma;
+    font-size: xx-large;
 }
 
 #texteHaut {
@@ -32,12 +33,13 @@ h2 {
     background-image: url("img/voyage.jpg");
     background-size: cover;
     padding-top: 7%;
-    padding-bottom: 7%;
+    padding-bottom: 2%;
 }
 
 #idTextVoyage {
     text-align: justify;
     padding-left: 10%;
+    margin-left: 11%;
     padding-right: 10%;
     font-family: Verdana, Tahoma;
 }
@@ -48,8 +50,17 @@ h2 {
     margin-left: 10%;
     margin-right: 10%;
     padding-top: 2%;
-    padding-bottom: 2%;
+    padding-bottom: 27%;
+    padding-left: 2%;
     margin-top: 10%;
+}
+
+#idImgVoyage {
+    width: 44%;
+    height: 50%;
+    margin-left: 17%;
+    margin-bottom: 0%;
+    position: absolute;
 }
 
 #idMusique {
@@ -66,8 +77,19 @@ h2 {
     text-align: justify;
     padding-left: 10%;
     padding-right: 10%;
+    padding-bottom: 5%;
     font-family: Verdana, Tahoma;
     margin-left: 27%;
+}
+
+#chansonMoment {
+    font-size: x-large;
+    color: black;
+}
+
+#celine {
+    font-size: large;
+    color: black;
 }
 
 #idNature {
@@ -76,7 +98,7 @@ h2 {
     margin-left: 10%;
     margin-right: 10%;
     padding-top: 2%;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
     margin-top: 10%;
 }
 
@@ -86,7 +108,105 @@ h2 {
     padding-right: 10%;
     font-family: Verdana, Tahoma;
     margin-left: 15%;
-    margin-top: 20%;
+    margin-top: 4%;
+    color: chocolate;
+}
+
+#idTitreNat {
+    margin-top: 24%;
+    color: chocolate;
+    font-size: xx-large;
+}
+
+#idAmis {
+    background-image: url("img/amis.jpg");
+    background-size: cover;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    margin-top: 10%;
+}
+
+#idTextAmis {
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 25%;
+    font-family: Verdana, Tahoma;
+    margin-left: 14%;
+}
+
+#idImgAmis {
+    width: 35%;
+    height: 40%;
+    margin-left: 3%;
+    margin-bottom: 0%;
+    position: absolute;
+    margin-top: 2%;
+}
+
+#idSport {
+    background-image: url("img/sport.jpg");
+    background-size: cover;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    padding-left: 2%;
+    margin-top: 10%;
+}
+
+#idTextSport {
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    font-family: Verdana, Tahoma;
+    margin-left: 15%;
+}
+
+#idPatisser {
+    background-image: url("img/patisser.jpg");
+    background-size: cover;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    margin-top: 10%;
+}
+
+#idTitrePatisser {
+    margin-top: 18%;
+    color: maroon;
+    font-size: xx-large;
+}
+
+#idTextPatisser {
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    font-family: Verdana, Tahoma;
+    margin-left: 25%;
+    color: maroon;
+}
+
+#recette {
+    font-size: xx-large;
+    color: black;
+}
+
+#idBackMenu {
+    color: black;
+    background-color: coral;
+    margin-top: 35%;
+    position: fixed;
+}
+
+#idBM {
+    position: fixed;
 }
 
 #idLogo {
