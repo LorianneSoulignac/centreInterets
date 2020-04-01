@@ -12,6 +12,18 @@ h2 {
     font-size: xx-large;
 }
 
+.flot {
+    float: left;
+}
+
+#imgEvol {
+    margin: auto;
+    padding: auto;
+    width: 20%;
+    height: 20%;
+    margin-left: 40%;
+}
+
 #texteHaut {
     text-align: center;
     font-family: Verdana, Tahoma;
@@ -30,56 +42,70 @@ h2 {
     color: black;
     margin-top: 0%;
     font-size: 400%;
-    background-image: url("img/voyage.jpg");
-    background-size: cover;
     padding-top: 7%;
     padding-bottom: 2%;
 }
 
 #idTextVoyage {
     text-align: justify;
-    padding-left: 10%;
-    margin-left: 11%;
-    padding-right: 10%;
-    font-family: Verdana, Tahoma;
+    padding-left: 0%;
+    margin-right: 3%;
+    margin-left: 3%;
+    padding-bottom: 3%;
 }
 
 #idVoyage {
-    background-image: url("img/voyage.jpg");
-    background-size: cover;
+    font-family: verdana;
+    background-color: #F89777;
     margin-left: 10%;
     margin-right: 10%;
-    padding-top: 2%;
-    padding-bottom: 27%;
-    padding-left: 2%;
     margin-top: 10%;
 }
 
 #idImgVoyage {
-    width: 44%;
     height: 50%;
-    margin-left: 17%;
+    width: 80%;
+    margin-right: 0%;
+    margin-left: 14%;
+    padding-right: 0%;
+}
+
+#idImgVoyageP {
+    margin-right: 0%;
     margin-bottom: 0%;
-    position: absolute;
+    width: 60%;
+    height: 80%;
 }
 
 #idMusique {
-    background-image: url("img/music.jpg");
-    background-size: cover;
+    font-family: verdana;
+    background-color: #F89777;
     margin-left: 10%;
     margin-right: 10%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    margin-top: 10%;
+    margin-top: 2%;
 }
 
 #idTextMusic {
     text-align: justify;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 5%;
-    font-family: Verdana, Tahoma;
-    margin-left: 27%;
+    padding-left: 0%;
+    margin-right: 3%;
+    margin-left: 3%;
+    padding-bottom: 3%;
+}
+
+#idImgMusicP {
+    margin-right: -5%;
+    margin-bottom: 0%;
+    width: 60%;
+    height: 80%;
+}
+
+#idImgMusic {
+    height: 30%;
+    width: 60%;
+    margin-right: 0%;
+    margin-left: 14%;
+    padding-right: 0%;
 }
 
 #chansonMoment {
@@ -93,104 +119,130 @@ h2 {
 }
 
 #idNature {
-    background-image: url("img/nature.jpg");
-    background-size: cover;
+    font-family: verdana;
+    background-color: #F89777;
     margin-left: 10%;
     margin-right: 10%;
-    padding-top: 2%;
-    padding-bottom: 1%;
-    margin-top: 10%;
+    margin-top: 2%;
 }
 
 #idTextNature {
     text-align: justify;
-    padding-left: 10%;
-    padding-right: 10%;
-    font-family: Verdana, Tahoma;
-    margin-left: 15%;
-    margin-top: 4%;
-    color: chocolate;
+    padding-left: 0%;
+    margin-right: 3%;
+    margin-left: 3%;
+    padding-bottom: 3%;
 }
 
-#idTitreNat {
-    margin-top: 24%;
-    color: chocolate;
-    font-size: xx-large;
+#idImgNatureP {
+    margin-right: 0%;
+    margin-bottom: 0%;
+    width: 60%;
+    height: 80%;
+}
+
+#idImgNature {
+    height: 40%;
+    width: 70%;
+    margin-right: 0%;
+    margin-left: 14%;
+    padding-right: 0%;
 }
 
 #idAmis {
-    background-image: url("img/amis.jpg");
-    background-size: cover;
+    font-family: verdana;
+    background-color: #F89777;
     margin-left: 10%;
     margin-right: 10%;
-    padding-top: 2%;
-    padding-bottom: 3%;
-    margin-top: 10%;
+    margin-top: 2%;
 }
 
 #idTextAmis {
     text-align: justify;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 25%;
-    font-family: Verdana, Tahoma;
-    margin-left: 14%;
+    padding-left: 0%;
+    margin-right: 3%;
+    margin-left: 3%;
+    padding-bottom: 3%;
+    margin-top: 6%;
 }
 
-#idImgAmis {
-    width: 35%;
+#idImgAmi {
     height: 40%;
-    margin-left: 3%;
+    width: 70%;
+    margin-right: 0%;
+    margin-left: 14%;
+    padding-right: 0%;
+}
+
+#idImgAmiP {
+    margin-right: -6%;
     margin-bottom: 0%;
-    position: absolute;
-    margin-top: 2%;
+    width: 60%;
+    height: 80%;
 }
 
 #idSport {
-    background-image: url("img/sport.jpg");
-    background-size: cover;
+    font-family: verdana;
+    background-color: #F89777;
     margin-left: 10%;
     margin-right: 10%;
-    padding-top: 2%;
-    padding-bottom: 3%;
-    padding-left: 2%;
-    margin-top: 10%;
+    margin-top: 2%;
 }
 
 #idTextSport {
     text-align: justify;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 5%;
-    font-family: Verdana, Tahoma;
-    margin-left: 15%;
+    padding-left: 0%;
+    margin-right: 3%;
+    margin-left: 3%;
+    padding-bottom: 3%;
+    margin-top: 3.5%;
+}
+
+#idImgSport {
+    height: 40%;
+    width: 70%;
+    margin-right: 0%;
+    margin-left: 14%;
+    padding-right: 0%;
+}
+
+#idImgSportP {
+    margin-right: -6%;
+    margin-bottom: 0%;
+    width: 60%;
+    height: 80%;
 }
 
 #idPatisser {
-    background-image: url("img/patisser.jpg");
-    background-size: cover;
+    font-family: verdana;
+    background-color: #F89777;
     margin-left: 10%;
     margin-right: 10%;
-    padding-top: 2%;
-    padding-bottom: 5%;
-    padding-left: 2%;
-    margin-top: 10%;
-}
-
-#idTitrePatisser {
-    margin-top: 18%;
-    color: maroon;
-    font-size: xx-large;
+    margin-top: 2%;
 }
 
 #idTextPatisser {
     text-align: justify;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 3%;
-    font-family: Verdana, Tahoma;
-    margin-left: 25%;
-    color: maroon;
+    padding-left: 0%;
+    margin-right: 3%;
+    margin-left: 3%;
+    padding-bottom: 5%;
+    margin-top: 5.5%;
+}
+
+#idImgPatisser {
+    height: 20%;
+    width: 35%;
+    margin-right: 0%;
+    margin-left: 20%;
+    padding-right: 0%;
+}
+
+#idImgPatisserP {
+    margin-right: -15%;
+    margin-bottom: 0%;
+    width: 60%;
+    height: 80%;
 }
 
 #recette {
@@ -212,6 +264,14 @@ h2 {
 #idLogo {
     font-size: 30px;
     margin-left: 40%;
+}
+
+.menuItem {
+    display: inline-block;
+    position: absolute;
+    font-size: 12px;
+    color: #BBBBBB;
+    cursor: pointer;
 }
 
 .toggle {
@@ -254,14 +314,6 @@ h2 {
     transition: 0.7s;
     margin-top: 12%;
     margin-left: 30%;
-}
-
-a {
-    display: inline-block;
-    position: absolute;
-    font-size: 12px;
-    color: #BBBBBB;
-    cursor: pointer;
 }
 
 a:nth-child(1) {
